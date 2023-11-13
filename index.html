@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Demo</h1>
+    <div class="container">
+        <div class="flexitem" id="simpleForm">
+            <h2>Simple Form</h2>
+            <form action="./response.html">
+                <label for="fname">First Name: </label>
+                <br/>
+                <input type="text" name="fname"/>
+                <br/>
+                <label>
+                    Last Name:
+                    <br/>
+                    <input type="text" name="lname"/>
+                </label>
+                <br/>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="flexitem">
+            <h2>Cell Phone, Email, Password Form</h2>
+            <form action="./response.html">
+                <label>
+                    Cell Phone:
+                    <br/>
+                    <input type="number" name="cellNumber"/>
+                </label>
+                <br/>
+                <label>
+                    Email:
+                    <br/>
+                    <input type="email" name="email" />
+                </label>
+                <br/>
+                <label>
+                    Password:
+                    <br/>
+                    <input type="password" name="password"/>
+                </label>
+                <br/>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="flexitem">
+            <h2>Which type of pet is your favorite?</h2>
+            <form>
+                <label>
+                    <input type="radio" name="favoritePet" value="Dog"/>
+                    Dog
+                </label>
+                <br/>
+                <label>
+                    <input type="radio" name="favoritePet" value="Cat"/>
+                    Cat
+                </label>
+                <br/>
+                <label>
+                    <input type="radio" name="favoritePet" value="Bunny"/>
+                    Bunny
+                </label>
+                <br/>
+                <label>
+                    <input type="radio" name="favoritePet" value="Reptile"/>
+                    Reptile
+                </label>
+            </form>
+        </div>
+        <div class="flexitem">
+            <h2>What kind of car do you have?</h2>
+            <form>
+                <label>
+                    <input type="checkbox" name="favCar" value="Sedan"/>
+                    Sedan
+                </label>
+                <br/>
+                <label>
+                    <input type="checkbox" name="favCar" value="Truck"/>
+                    Truck
+                </label>
+                <br/>
+                <label>
+                    <input type="checkbox" name="favCar" value="Coupe"/>
+                    Coupe
+                </label>
+                <br/>
+                <label>
+                    <input type="checkbox" name="favCar" value="Wagon"/>
+                    Wagon
+                </label>
+            </form>
+        </div>
+        <div class="flexitem">
+            <h2>Choose a favorite Food</h2>
+            <form action="./response.html">
+                <select name="favFood">
+                    <option value="">None/ Select an option</option>
+                    <option value="sashimi">Sashimi</option>
+                    <option value="tacos">Tacos</option>
+                    <option value="seafood">Seafood</option>
+                    <option value="pasta">Pasta</option>
+                </select>
+                <br/>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+    </div>
+    <div>
+        <h2>Car Brands</h2>
+        <ul>
+            <li>Toyota</li>
+            <li>Benz</li>
+            <li>BMW</li>
+            <li>Honda</li>
+            <li>Mazda</li>
+            <li>Lambo</li>
+            <li>Nissan</li>
+        </ul>
+    </div>
+</body>
+</html>
